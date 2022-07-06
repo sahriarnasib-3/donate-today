@@ -28,7 +28,7 @@ section {
     padding-top: 10%;
 }
 
-.for-margin {
+.header-area p {
     margin-bottom: 3%;
 }
 
@@ -49,7 +49,12 @@ span {
     text-align: center;
 }
 
-.heading-font {
+.donate-area p {
+    margin-bottom: 3%;
+    color: gray;
+}
+
+.donate-heading {
     font-size: 50px;
     margin-bottom: 1%;
 }
@@ -69,11 +74,7 @@ span {
     color: gray;
 }
 
-#donate-p {
-    margin-bottom: 3%;
-}
-
-.donate-amount {
+.select-amount {
     color: tomato;
     background-color: rgba(255, 99, 71, 0.078);
     border: 3px solid tomato;
@@ -106,10 +107,16 @@ span {
 }
 
 .donate-plan-area p {
-    margin-bottom: 5%;
+    text-align: justify;
 }
 
-.flexible-area-2 {
+
+#donate-p {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.flexible-area-two {
     display: flex;
     padding-left: 5%;
     padding-right: 5%;
@@ -141,10 +148,6 @@ span {
     font-size: 50px;
 }
 
-.donate-p-text {
-    text-align: justify;
-}
-
 .pray-area {
     display: flex;
 }
@@ -157,6 +160,10 @@ span {
 .half-width-3 img {
     width: 100%;
     padding-right: 15%;
+}
+
+#pray-area-img {
+    border-radius: 5px;
 }
 
 .half-width-3 h1 {
@@ -180,19 +187,48 @@ span {
     color: white;
 }
 
-.all-update-area {
+.my-update-area {
     text-align: center;
 }
 
-.all-update-area p {
-    margin-bottom: 10%;
+.my-update-area h1 {
+    font-size: 40px;
 }
 
-.all-update-area a {
+.my-update-area p {
+    margin-bottom: 4%;
+}
+
+.my-update-area a {
     text-decoration: none;
     background-color: tomato;
-    padding: 10px 20px;
+    padding: 10px 20px 12px 20px;
     border-radius: 5px;
     color: white;
+}
 
+.my-update-area input {
+    padding: 15px 50px 15px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#search-bar {
+    width: 50%;
+    background-color: #FFEBCD;
+    padding: 6%;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 3%;
+    background-color: #03051b;
+    color: white;
+}
+
+footer h1 {
+    color: tomato;
+    font-style: italic;
 }
