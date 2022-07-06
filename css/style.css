@@ -1,0 +1,144 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    margin-bottom: 120px;
+}
+
+.header-area {
+    background-image: url(../images/donation13.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+
+.header-area h1 {
+    font-size: 70px;
+    padding-top: 10%;
+}
+
+.for-margin {
+    margin-bottom: 3%;
+}
+
+span {
+    display: block;
+}
+
+.donate-button {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.donate-area {
+    text-align: center;
+}
+
+.heading-font {
+    font-size: 50px;
+    margin-bottom: 1%;
+}
+
+.gray-font {
+    color: gray;
+}
+
+.flexible-area {
+    display: flex;
+    padding: 0% 400px;
+}
+
+.half-width {
+    width: 20%;
+    margin-top: 40px;
+}
+
+#donate-p {
+    margin-bottom: 3%;
+}
+
+.donate-amount {
+    color: tomato;
+    background-color: rgba(255, 99, 71, 0.078);
+    border: 3px solid tomato;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid gray;
+    width: 40%;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 15px;
+    margin-bottom: 3%;
+}
+
+.donate-plan-area {
+    text-align: center;
+}
+
+.donate-plan-area h1 {
+    font-size: 50px;
+}
+
+.donate-plan-area h2 {
+    font: 30px;
+    margin-top: 10%;
+}
+
+.donate-plan-area p {
+    margin-bottom: 5%;
+}
+
+.flexible-area-2 {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.half-width-2 {
+    padding: 3% 4% 5% 3%;
+    width: 30%;
+    margin-left: 3%;
+    text-align: left;
+    border-radius: 5px;
+}
+
+#food {
+    background-color: #FAF0E6;
+}
+
+#shelter {
+    background-color: #E0FFFF;
+}
+
+#education {
+    background-color: #FFEBCD;
+}
+
+.fa-solid {
+    font-size: 50px;
+}
+
+.donate-p-text {
+    text-align: justify;
+}
